@@ -6,7 +6,7 @@ class Owner
   end
 
   #Variables
-  @@self = []
+  @@all = []
 
   def name
     @name
@@ -21,12 +21,12 @@ class Owner
   end
 
   def count
-    @@self.count
+    @@all.count
   end
 
   #methods
   def reset_all
-    @@self.clear
+    @@all.clear
   end
 
 
