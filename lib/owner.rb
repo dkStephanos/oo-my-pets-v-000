@@ -43,19 +43,19 @@ class Owner
   end
 
   def say_species
-    "I am a #{@species}"
+    "I am a #{@species}."
   end
 
   def buy_fish(fish)
-    @pets.fishes << fish
+    @pets[fishes] << fish
   end
 
   def buy_cat(cat)
-    @pets.cats << cat
+    @pets[cats] << cat
   end
 
   def buy_dog(dog)
-    @pets.dogs << dog
+    @pets[dogs] << dog
   end
 
 end
