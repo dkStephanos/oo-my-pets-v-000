@@ -17,7 +17,7 @@ class Owner
   end
 
   def species=(species)
-    throw TypeError
+    t#hrow TypeError
   end
 
   def self.all
