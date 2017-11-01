@@ -14,6 +14,10 @@ class Cat
     @mood
   end
 
+  def mood=(mood)
+    @mood = mood
+  end
+
   #methods
-  
+
 end
