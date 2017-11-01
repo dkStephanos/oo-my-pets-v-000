@@ -2,11 +2,11 @@ class Owner
   def initialize(name)
     @species = "human"
     @name = name
-    @@owners << self
+    @@all << self
   end
 
   #Variables
-  @@owners = []
+  @@self = []
 
   def name
     @name
@@ -21,12 +21,12 @@ class Owner
   end
 
   def count
-    @@owners.count
+    @@self.count
   end
 
   #methods
   def reset_all
-    @@owners.clear
+    @@self.clear
   end
 
 
