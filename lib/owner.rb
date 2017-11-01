@@ -20,17 +20,16 @@ class Owner
     @species.dup.freeze
   end
 
-  private
-
-  def all
+  def self.all
     @@all
   end
 
-  def count
+  def self.count
     @@all.count
   end
-
-  def reset_all
+  
+  #methods
+  def self.reset_all
     @@all.clear
   end
 
