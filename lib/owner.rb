@@ -17,7 +17,7 @@ class Owner
   end
 
   def species=(species)
-    @species.dup.freeze
+    throw TypeError
   end
 
   def self.all
