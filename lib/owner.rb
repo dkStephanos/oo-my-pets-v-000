@@ -17,7 +17,7 @@ class Owner
   end
 
   def species=(species)
-    t#hrow TypeError
+    
   end
 
   def self.all
