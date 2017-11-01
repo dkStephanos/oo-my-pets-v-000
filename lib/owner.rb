@@ -7,7 +7,7 @@ class Owner
 
   #Variables
   @@owners = []
-  
+
   def name
     @name
   end
@@ -29,5 +29,5 @@ class Owner
     @@owners.clear
   end
 
-  
+
 end
