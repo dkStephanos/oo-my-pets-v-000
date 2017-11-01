@@ -20,7 +20,7 @@ class Owner
     @species.dup.freeze
   end
 
-  def all
+  def self.all
     @@all
   end
 
