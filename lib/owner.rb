@@ -20,6 +20,10 @@ class Owner
     @species.dup.freeze
   end
 
+  def all
+    @@all
+  end
+  
   def count
     @@all.count
   end
